@@ -1,0 +1,25 @@
+{
+    "version" : "1.6.2",
+    "compilerOptions": {
+        "target" : "es5",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "sourceMap": true
+    },
+    "filesGlob": [
+    "**/*.ts"
+    ],
+    "files": [
+        "src/controllers/example.ts",
+        "src/services/errorHandler.ts",
+        "src/**/*.ts",
+        "typings/**/*.ts",
+        "gulp/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
